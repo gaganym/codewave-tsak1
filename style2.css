@@ -1,0 +1,154 @@
+.ss {
+	width: 50px;
+	height: 50px;
+}
+
+.men {
+	width: 100px;
+	height: 50px;
+	border-radius: 100px;
+}
+
+.shopper {
+	width: 10px;
+}
+
+.width1 {
+	width: 80px;
+}
+
+#favcolor {
+	height: 25px;
+	width: 50px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+#favcolor::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+#favcolor::-webkit-color-swatch {
+	border: none;
+}
+
+nav ul li a:hover {
+	border-bottom: 5px solid blue;
+}
+
+.font {
+	font-family: Sans-serif;
+}
+
+.pcard {
+	width: 100%;
+}
+
+.pcard:hover {
+	box-shadow: 5px 5px 5px #888888;
+}
+
+
+/* jock and jons */
+
+.jack {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+	left: 150px;
+	transform: translate(-50%, -50%);
+}
+
+.bottom1 {
+	position: absolute;
+	bottom: 1px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	opacity: 0.6;
+}
+
+
+/* cards */
+
+.card {
+	position: relative;
+	height: 350px;
+	width: 100%px;
+	background: white;
+	border: none;
+	cursor: pointer;
+	transition: 0.4s linear;
+}
+
+.card .image {
+	background: black;
+	height: 240px;
+	overflow: hidden;
+	background: white;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
+	transition: 0.3s;
+}
+
+.card .content {
+	position: absolute;
+	bottom: 0px;
+	background: white;
+	width: 100%;
+	height: auto;
+}
+
+.card.active .image img {
+	transform: scale(1.1);
+}
+
+.card:hover {
+	box-shadow: 5px 5px 5px 5px #DCDEDD;
+	border: black;
+}
+
+.card button {
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: #1D94EC;
+	color: white;
+	text-transform: uppercase;
+	
+}
+
+.bottom {
+	display: none;
+
+
+}
+
+#favcolor1 {
+	height: 15px;
+	width: 15px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	-webkit-appearance: none;
+}
+
+#favcolor1::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+#favcolor1::-webkit-color-swatch {
+	border: none;
+}

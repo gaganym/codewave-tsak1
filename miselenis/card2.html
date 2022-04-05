@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>card2</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+	<div class="card mt-6 shadow filter sales-filt w-25">
+  <div class="card-img">
+    <img src="images/rahul.jpg" class="card-img" alt="">
+  </div>
+  <div class="card-body">
+    <h6 class="card-title mb-0 text-uppercase">Alec Koyer</h6>
+    <p class="card-text mb-3 people-p text-green fw-bold">Sales</p>
+    <button class="js-video-button btn-people--launch" data-video-id='333' data-channel="vimeo"><i class="fas fa-play"></i></button>
+  </div>
+</div>
+
+<script type="text/javascript">
+	$('.card').on('mouseover mouseout',function(){
+    var cardImg = $(this).find('.card-img');
+    cardImg.toggleClass('card-img-hover');
+  });
+</script>
+	
+
+</body>
+</html>
